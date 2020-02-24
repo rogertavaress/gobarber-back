@@ -1,4 +1,4 @@
 export default {
-    secret: 'bong ogre cony bide pods icon',
+    secret: process.env.APP_SECRET,
     expiresIn: '7d',
 };
